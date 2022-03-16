@@ -1,0 +1,108 @@
+<h3>40923207</h3>
+<p>負責影片:</p>
+<p>15.<a href="https://www.youtube.com/watch?v=sPhkCyiM4aQ&amp;list=PLzEsJue49U_EMMv0eBo8MNJjJOq_WHCrl&amp;index=15">TECH 4472 HW09 NX Assemblies (Bottom-UP)</a></p>
+<p>使用影片說明附上的零件進行組裝</p>
+<p>youtube</p>
+<p><iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/3DnTssWNrdQ" title="YouTube video player"></iframe></p>
+<p>wink</p>
+<script>// <![CDATA[
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 20,
+  buttonFrameLength: 10,
+  buttonFrameOffset: 5,
+  frameStops: {
+  },
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="1920" height="1044" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData">
+<source src="https://40923207.github.io/cd2022/downloads/1.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>16.<a href="https://www.youtube.com/watch?v=ZMBafEB0XEg&amp;list=PLzEsJue49U_EMMv0eBo8MNJjJOq_WHCrl&amp;index=16">4472 NX Subassemblies</a></p>
+<p><span>使用影片說明附上的零件進行組裝</span></p>
+<p>youtube</p>
+<p><iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/PFAbmeJ0xfE" title="YouTube video player"></iframe></p>
+<p>wink</p>
+<script>// <![CDATA[
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 20,
+  buttonFrameLength: 10,
+  buttonFrameOffset: 5,
+  frameStops: {
+  },
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="1920" height="1044" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData">
+<source src="https://40923207.github.io/cd2022/downloads/2.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>17.<a href="https://www.youtube.com/watch?v=lyoU-7d5Plc&amp;list=PLzEsJue49U_EMMv0eBo8MNJjJOq_WHCrl&amp;index=17">4472 HW10 NX Curves,Tubes,Wave Geometry Linker</a></p>
+<p>youtube</p>
+<p><iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/mgfcpZjm8DA" title="YouTube video player"></iframe></p>
+<p>wink</p>
+<script>// <![CDATA[
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 20,
+  buttonFrameLength: 10,
+  buttonFrameOffset: 5,
+  frameStops: {
+  },
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="1920" height="1044" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData">
+<source src="https://40923207.github.io/cd2022/downloads/3.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>18.<a href="https://www.youtube.com/watch?v=8_Y8mbmlwhY&amp;list=PLzEsJue49U_EMMv0eBo8MNJjJOq_WHCrl&amp;index=18">4472 HW11 NX Assemblies Top Down</a></p>
+<p>youtube</p>
+<p><iframe width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://www.youtube.com/embed/wr5np76H4hY" title="YouTube video player"></iframe></p>
+<p>wink</p>
+<script>// <![CDATA[
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 20,
+  buttonFrameLength: 10,
+  buttonFrameOffset: 5,
+  frameStops: {
+  },
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="1920" height="1044" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData">
+<source src="https://40923207.github.io/cd2022/downloads/4.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
