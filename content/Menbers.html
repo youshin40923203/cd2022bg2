@@ -2,7 +2,7 @@
         <head>
         <title>CMSTemplate</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -128,7 +128,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='可攜系統.html'>可攜系統</a><ul class='dropdown'><li><a href='Lua 解譯.html'>Lua 解譯</a></li></ul><li class='has-children'><a href='Wink.html'>Wink</a><ul class='dropdown'><li><a href='Add Wink.html'>Add Wink</a></li></ul><li class='has-children'><a href='CMSiMDE.html'>CMSiMDE</a><ul class='dropdown'><li><a href='建立網頁.html'>建立網頁</a><li class='has-children'><a href='基本操作.html'>基本操作</a><ul class='dropdown'><li><a href='客製化.html'>客製化</a><li><a href='編輯網頁內容.html'>編輯網頁內容</a><li><a href='上傳與引用檔案.html'>上傳與引用檔案</a><li><a href='上傳與引用圖片.html'>上傳與引用圖片</a><li><a href='嵌入程式碼.html'>嵌入程式碼</a><li><a href='嵌入影片檔.html'>嵌入影片檔</a><li><a href='檢視 STL.html'>檢視 STL</a></li></ul><li><a href='置入 disqus.html'>置入 disqus</a><li><a href='Gitlab 同步.html'>Gitlab 同步</a><li><a href='Heroku 部署.html'>Heroku 部署</a><li><a href='Fossil SCM.html'>Fossil SCM</a></li></ul><li class='has-children'><a href='注意事項.html'>注意事項</a><ul class='dropdown'><li><a href='標題選擇.html'>標題選擇</a><li><a href='靜態網頁 404.html'>靜態網頁 404</a><li><a href='動態網站錯誤.html'>動態網站錯誤</a></li></ul><li class='has-children'><a href='延伸開發.html'>延伸開發</a><ul class='dropdown'><li class='has-children'><a href='已知問題.html'>已知問題</a><ul class='dropdown'><li><a href='IPv6.html'>IPv6</a><li><a href='上傳資料引用.html'>上傳資料引用</a><li><a href='MathJax.html'>MathJax</a><li><a href='html 分頁.html'>html 分頁</a><li><a href='靜態搜尋.html'>靜態搜尋</a><li><a href='template.html'>template</a><li><a href='重複標題頁面.html'>重複標題頁面</a></li></ul><li><a href='ajax.html'>ajax</a><li><a href='black.html'>black</a><li><a href='summernote.html'>summernote</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Menbers.html'>Menbers</a><li><a href='協同簡報.html'>協同簡報</a></li>
                       </ul>
                 </nav>
               </div>
@@ -139,18 +139,24 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">Heroku 部署 << <a href='Heroku 部署.html'>Previous</a> <a href='注意事項.html'>Next</a> >> 注意事項<br /><h1>Fossil SCM</h1>
-<p>在 Github 之外, 可以同步將各倉儲資料存放至 Gitlab, Heroku (有 500 MB 容量限制) 與 Fossil SCM.</p>
-<p>希望整合 Github 與 Fossil SCM 倉儲步驟說明如下:</p>
-<p>針對 Github 中已經有 <a href="https://github.com/mdecourse/cmstemplate">https://github.com/mdecourse/cmstemplate</a> 倉儲, 希望同步建 <a href="https://fossil.kmol.info/cmstemplate">https://fossil.kmol.info/cmstemplate</a> 與之內容同步.</p>
-<p>登入 fossil.kmol.info 主機, 在 /home/user/repository 目錄中, 以 fossil init cmstemplate.fossil 建立空倉儲. 此時 Fossil SCM 將會列出以登入帳號作為帳號的管理者密碼.</p>
-<p>管理者利用 <a href="https://fossil.kmol.info/cmstemplate">https://fossil.kmol.info/cmstemplate</a> 連結, 以 user 登入, 並利用上列管理者密碼進入管理區, 先行透過 Setup/users 變更 user 對應密碼.</p>
-<p>回到 Windows 以 <span style="background-color: #ffff99;">fossil clone https://user@fossil.kmol.info/cmstemplate cmstemplate.fossil</span> 取下倉儲資料, 過程中將需要輸入與 user 對應的密碼, 並被詢問是否儲存密碼, 若選擇儲存密碼則隨後的 fossil commit 將回自動提交推送.</p>
-<p>接著在近端必須開啟空 cmstemplate.fossil 倉儲, 主要目的是取得 __FOSSIL__, 並且以 git pull 完整拉下位於 <a href="https://github.com/mdecourse/cmstemplate">https://github.com/mdecourse/cmstemplate</a> 中的資料並與空 __FOSSIL__ 進行整合. 其中在 Fossil SCM 端必須將 Setup/Settings 中的 default-csp 設為: <a href="https://fonts.googleapis.com">https://fonts.googleapis.com</a> (讓 CMSiMDE 靜態網頁可以在 Fossil SCM doc 頁面中正常顯示), 且勾選 dotfiles (讓 Fossil SCM 可以儲存 .git 中的版本資料).</p>
-<p></p>
-<h4>參考資料:</h4>
-<p>編譯 Fossil SCM:</p>
-<p style="padding-left: 30px;"> <a href="http://project.mde.tw/blog/zai-msys2-huan-jing-bian-yi-fossil-scm.html">http://project.mde.tw/blog/zai-msys2-huan-jing-bian-yi-fossil-scm.html</a></p><br />Heroku 部署 << <a href='Heroku 部署.html'>Previous</a> <a href='注意事項.html'>Next</a> >> 注意事項</div>
+    <div id="tipue_search_content">About << <a href='About.html'>Previous</a> <a href='協同簡報.html'>Next</a> >> 協同簡報<br /><h1>Menbers</h1>
+<p style="text-align: center;"><span></span><span>謝閎璾</span></p>
+<p style="text-align: center;"><a href="https://github.com/40823215/cd2022">40823215</a> <a href="https://40823215.github.io/cd2022/content/index.html">40823215</a></p>
+<p style="text-align: center;">陳宥歆</p>
+<p style="text-align: center;"><a href="https://github.com/youshin40923203/cd2022">youshin40923203</a> <a href="https://youshin40923203.github.io/cd2022/content/index.html">40923203</a></p>
+<p style="text-align: center;">陳筱瑄</p>
+<p style="text-align: center;"><a href="https://github.com/40923204/cd2022">40923204</a> <a href="https://40923204.github.io/cd2022/content/index.html">40923204</a></p>
+<p style="text-align: center;">楊淑安</p>
+<p style="text-align: center;"><a href="https://github.com/40923207/cd2022">40923207</a> <a href="https://40923207.github.io/cd2022/content/index.html">40923207</a></p>
+<p style="text-align: center;">盧詩婷</p>
+<p style="text-align: center;"><a href="https://github.com/nfu40923209/cd2022">nfu40923209</a> <a href="https://nfu40923209.github.io/cd2022/content/index.html">40923209</a></p>
+<p style="text-align: center;">陳俊豪</p>
+<p style="text-align: center;"><a href="https://github.com/40923213/cd2022">40923213</a> <a href="https://40923213.github.io/cd2022/content/index.html">40923213</a></p>
+<p style="text-align: center;">陳胡文</p>
+<p style="text-align: center;"><a href="https://github.com/40923220/cd2022">40923220</a> <a href="https://40923220.github.io/cd2022/content/index.html">40923220</a></p>
+<p style="text-align: center;">蔡宗瑋</p>
+<p style="text-align: center;"><span><a href="https://github.com/40923240/cd2022">40923240</a> <a href="https://40923240.github.io/cd2022/content/index.html">40923240</a><a href="https://github.com/40923240/cd2022"></a></span></p>
+<br />About << <a href='About.html'>Previous</a> <a href='協同簡報.html'>Next</a> >> 協同簡報</div>
         
     <!-- footer -->
       <div class="container">
